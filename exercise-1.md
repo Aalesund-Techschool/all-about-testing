@@ -33,7 +33,7 @@ Run the tests for the file. The result should look something like this:
 Note the output at the bottom of the screen:
 
 ```
-Hello Nerdschool
+Hello Techschool
 
 Process finished with exit code 0
 ```
@@ -62,7 +62,7 @@ We are going to focus on testing the `SmoothieBar`-class in the next exercises.
 
 Let's start by creating a test that'll test if the `SmoothieBar` class can blend an orange and apple smoothie.
 
-:pencil2: Remove the `helloNerdSchool` test and add the following by writing the code yourself (don't copy & paste):
+:pencil2: Remove the `hellTechschool` test and add the following by writing the code yourself (don't copy & paste):
 
 ```java
 

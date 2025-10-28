@@ -5,5 +5,5 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class SmoothieBarTest {
     @Test
-    public void helloNerdschool() { System.out.println("Hello Nerdschool"); }
+    public void helloTechschool() { System.out.println("Hello Techschool"); }
 }
