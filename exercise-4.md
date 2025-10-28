@@ -21,6 +21,8 @@ When following TDD, we always code in a certain pattern nicknamed "red-green-ref
 
 ![tdd](images/red-green-refactor.png)
 
+:pencil2: Try to follow along with the steps shown in creating a Calculator class, where we write the tests first followed by the implementation.
+
 ### Red
 
 First, we create a test.
