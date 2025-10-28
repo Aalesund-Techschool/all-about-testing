@@ -107,6 +107,10 @@ public void blendingOrangeAndAppleSmoothieConsumesOrangesAndApples() {
 :pencil2: You can also run all tests at once by clicking the green arrow beside the test class name.  
 :pencil2: Add a similar test for creating a banana and apple smoothie.
 
+:bulb: Suggestions for extra tests:
+- `blendingOrangeAndAppleSmoothieConsumesOrangesAndApples`
+- `restockingApplesAndOrangesIncreasesStock`
+
 ## 1.4. Test structure
 
 It is good practice to use the following structure when writing tests:
