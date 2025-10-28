@@ -77,7 +77,7 @@ You may have noticed that the arrange-part of the tests have some duplicated cod
 particular class/method may have overlapping code. To make the arrange code more DRY, we can utilize the `@Before`
 annotation provided by JUnit.
 
-:pencil2: Refactor the common arrange code into a method.  
+:pencil2: Refactor the common arrange code into a method.  Observe what is common in all tests (Setup method. Tip: You can initialize the class you are testing as a field variable in the test class). 
 :pencil2: Add the `@BeforeEach` syntax to the method.  
 :pencil2: Run the tests to make sure they still pass.  
 :book: Observe that the `@BeforeEach` annotated method runs before each test (the tests still passes, as before).
