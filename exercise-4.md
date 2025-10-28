@@ -2,7 +2,7 @@
 
 In this exercise we'll learn how to apply the TDD methodology when we're writing code.
 
-## What is TDD
+## 4.1 - What is TDD
 
 Test Driven Development is a way of writing code where we will **always** (a-l-w-a-y-s) write tests for our code
 **before** we write the implementation code.
@@ -90,10 +90,10 @@ For the simple example we're using in these examples there's not much refactorin
 
 ### Repeat
 
-Now that ``add()`` is implemented, we can add more features to our calculator in the same way:
-Write the test, implement the feature, make the test pass, refactor.
+:pencil2: Now that ``add()`` is implemented, we can add more features to our calculator in the same way:
+Write the test, implement the feature, make the test pass, refactor. (e.g. `subtract`, `multiply`). 
 
-## Tasks
+## 4.2 - Roman numerals
 
 Exercise 4 contains a skeleton for a simple ``RomanNumeralConverter`` class. It has one function: `String toRomanNumeral(int value)`
 which given a number, returns a String representing that number in roman numerals. For instance, 3 should return "III",
