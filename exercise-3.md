@@ -97,29 +97,6 @@ always avoid causes for uncertainty in your code.
 When diagnosing why tests fail it is very helpful to have tests output detailed information about what caused the test
 to fail, so that you can avoid having to debug the test using the debugger.
 
-:pencil2: Update the `blendingOrangeAndAppleSmoothieConsumesOrangesAndApples` test to restock the wrong amount of
-apples.  
-:pencil2: Rerun the test.  
-:book: Notice that the test outputs an `AssertionError`, but it's not very helpful.
-
-### Using the `assertEquals` assertion
-
-To make tests easier to diagnose, we can use the `assertEquals` assertion. `assertEquals` can be used to compare
-expected values to actual values:
-
-Syntax:
-
-```java
-assertEquals(1,someNumber);
-```
-
-Test failure output:
-
-```
-Expected :1
-Actual :0
-```
-
 ### Exposing a reason
 
 Supplying an identifying message makes the assertion error more readable:
@@ -138,7 +115,6 @@ Expected :1
 Actual :0
 ```
 
-:pencil2: Replace the `assertTrue` assertions in the test with `assertEquals` assertions.  
-:pencil2: The test output should now be easier to diagnose.
+:pencil2: In your `assertEquals` assertions, add a identifying message to your asserts. Make the tests fail and check the output. 
 
 ### [Go to exercise 4 :arrow_right:](exercise-4.md)
