@@ -64,7 +64,7 @@ As you can se the names use the domain terms `blend`, `OrangeAndAppleSmoothie`. 
 natural language to convey meaning. When reading those test names, you can be pretty confident you know what they do,
 without reading any code. The names also explains how the domain works - how the smoothie bar should work.
 
-:pencil2: See if you can rename some of the other tests you made using these rules
+:pencil2: If you have made any other tests, see if you can rename some of the other tests you made using these rules
 
 ### Alternate naming convention
 
